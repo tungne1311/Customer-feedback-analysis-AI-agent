@@ -1,0 +1,74 @@
+[
+    {
+        "id": "fb_001",
+        "project": "DuAnA",
+        "source": "crm",
+        "text": "Tôi hỏi về căn hộ nhưng nhân viên tư vấn phản hồi quá chậm.",
+        "expected_topic": "sales_service",
+        "expected_sentiment": "negative"
+    },
+    {
+        "id": "fb_mock_101",
+        "project": "DuAnA",
+        "source": "crm",
+        "text": "Tôi gửi câu hỏi về căn hộ nhưng đã hai ngày vẫn chưa nhận được phản hồi từ nhân viên tư vấn.",
+        "expected_topic": "sales_service",
+        "expected_sentiment": "negative"
+    },
+    {
+        "id": "fb_mock_102",
+        "project": "DuAnA",
+        "source": "survey",
+        "text": "Nhân viên tư vấn hẹn gọi lại nhưng không thực hiện, khiến tôi rất thất vọng.",
+        "expected_topic": "sales_service",
+        "expected_sentiment": "negative"
+    },
+    {
+        "id": "fb_mock_103",
+        "project": "DuAnA",
+        "source": "social",
+        "text": "Nhân viên tư vấn trả lời thiếu rõ ràng và thiếu nhiệt tình, tôi phải hỏi lại nhiều lần.",
+        "expected_topic": "sales_service",
+        "expected_sentiment": "negative"
+    },
+    {
+        "id": "fb_mock_104",
+        "project": "DuAnA",
+        "source": "survey",
+        "text": "Giá bán căn hộ quá cao so với khả năng tài chính của tôi.",
+        "expected_topic": "price",
+        "expected_sentiment": "negative"
+    },
+    {
+        "id": "fb_mock_105",
+        "project": "DuAnA",
+        "source": "survey",
+        "text": "Hồ bơi sạch sẽ và khu vui chơi rộng rãi, tôi rất hài lòng với các tiện ích.",
+        "expected_topic": "amenities",
+        "expected_sentiment": "positive"
+    },
+    {
+        "id": "fb_mock_106",
+        "project": "DuAnA",
+        "source": "crm",
+        "text": "Tôi muốn biết cần chuẩn bị những giấy tờ nào để làm thủ tục ký hợp đồng.",
+        "expected_topic": "legal_process",
+        "expected_sentiment": "neutral"
+    },
+    {
+        "id": "fb_mock_201",
+        "project": "DuAnB",
+        "source": "social",
+        "text": "Tiến độ xây dựng chậm hơn lịch đã thông báo, tôi không hài lòng vì phải chờ thêm.",
+        "expected_topic": "construction_progress",
+        "expected_sentiment": "negative"
+    },
+    {
+        "id": "fb_mock_202",
+        "project": "DuAnB",
+        "source": "survey",
+        "text": "Thủ tục ký hợp đồng rõ ràng và được xử lý nhanh chóng, tôi rất hài lòng.",
+        "expected_topic": "legal_process",
+        "expected_sentiment": "positive"
+    }
+]
