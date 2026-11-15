@@ -8,7 +8,7 @@
 
 ## Tiến độ (cập nhật 15/11/2026, hết ngày 1)
 
-- **Task 1 gần xong:** đã commit và push lên nhánh `sprint1/refactor-va-danh-gia-du-lieu-that`; còn gộp vào `main` và xóa file rác. **Task 2–9: chưa bắt đầu.** `pytest` 37 test pass, `ruff` sạch.
+- **Task 1 gần xong:** đã commit và push lên nhánh `sprint1/refactor-va-danh-gia-du-lieu-that`; còn gộp vào `main`. **Task 2–9: chưa bắt đầu.** `pytest` 37 test pass, `ruff` sạch.
 - **Đã xong ngoài kế hoạch:**
   - Thu thập 1.202 đánh giá Google Maps của 3 dự án, lọc và gán nhãn được 164 câu (công cụ ở `E:\VoC-data-collector`).
   - Đo lần đầu trên dữ liệu thật: chủ đề khớp 70,6%, cảm xúc khớp 92,0% (xem [EVAL_RESULTS.md](EVAL_RESULTS.md)).
@@ -34,7 +34,7 @@
 ## Task 1. VOC-84: Dọn repo và commit phần refactor (1 điểm)
 
 - [ ] Xem lại toàn bộ thay đổi bằng `git status` và `git diff`, chú ý `src/`, `tests/`, `docs/`.
-- [ ] Mở file `er.name Ten cua ban`, xác nhận là rác rồi xóa.
+- [x] Mở file `er.name Ten cua ban`, xác nhận là rác rồi xóa.
 - [x] Chạy `git check-ignore .env outputs/analysis_report.json`. Lệnh phải in ra cả hai đường dẫn, nghĩa là cả hai đều bị Git bỏ qua.
 - [x] Chạy `python -m pytest` (kỳ vọng 37 passed) và `python -m ruff check .` (kỳ vọng sạch).
 - [x] Chạy `git add -A` rồi `git status`. Danh sách staged không được có `.env`, `outputs/`, `.venv/` hay `__pycache__/`.
