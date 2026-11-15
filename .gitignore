@@ -2,9 +2,12 @@
 venv/
 __pycache__/
 *.pyc
+.pytest_cache/
+.ruff_cache/
 
 .env
 .env.*
 !.env.example
 
-outputs/t
+# Báo cáo sinh ra khi chạy, có chứa nội dung phản hồi.
+outputs/
