@@ -162,7 +162,7 @@ Cột "Loại": **S** là user story, **E** là enabler kỹ thuật, **Sp** là
 
 | Nhóm | Mục | Trạng thái |
 | --- | --- | --- |
-| Kế hoạch Sprint 1 | VOC-84, 01, 02, 10, 13, 20, 30 | **Chưa bắt đầu.** 0/16 điểm. Phần refactor vẫn chưa commit |
+| Kế hoạch Sprint 1 | VOC-84, 01, 02, 10, 13, 20, 30 | VOC-84 gần xong: đã commit và push lên nhánh `sprint1/refactor-va-danh-gia-du-lieu-that`, chưa gộp vào `main`. Các mục còn lại chưa bắt đầu |
 | Ngoài kế hoạch, đã xong | VOC-06 (thu thập dữ liệu thật), VOC-26 (chủ đề mới) | 4 điểm |
 | Làm sớm một phần | VOC-70 (164 câu có nhãn, chưa duyệt tay, chưa tách dev/test); VOC-71 (đã có số đo, chưa có lệnh trong repo) | Phần còn lại ở Sprint 2 |
 | Phát sinh từ số đo | VOC-27 (luật khen chê lẫn lộn), VOC-28 (giới hạn tốc độ gọi) | VOC-28 vào Sprint 1, VOC-27 vào Sprint 2 |
