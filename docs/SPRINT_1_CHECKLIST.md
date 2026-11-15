@@ -8,7 +8,7 @@
 
 ## Tiến độ (cập nhật 15/11/2026, hết ngày 1)
 
-- **Task 1 gần xong:** đã commit và push lên nhánh `sprint1/refactor-va-du-lieu-that`; còn gộp vào `main`. **Task 2–9: chưa bắt đầu.** `pytest` 37 test pass, `ruff` sạch.
+- **Task 1 xong (15/11):** toàn bộ phần đã làm nằm trên `main` ở GitHub. **Task 2–9: chưa bắt đầu.** `pytest` 37 test pass, `ruff` sạch.
 - **Đã xong ngoài kế hoạch:**
   - Thu thập 1.202 đánh giá Google Maps của 3 dự án, lọc và gán nhãn được 164 câu (công cụ ở `E:\VoC-data-collector`).
   - Đo lần đầu trên dữ liệu thật: chủ đề khớp 70,6%, cảm xúc khớp 92,0% (xem [EVAL_RESULTS.md](EVAL_RESULTS.md)).
@@ -39,7 +39,7 @@
 - [x] Chạy `python -m pytest` (kỳ vọng 37 passed) và `python -m ruff check .` (kỳ vọng sạch).
 - [x] Chạy `git add -A` rồi `git status`. Danh sách staged không được có `.env`, `outputs/`, `.venv/` hay `__pycache__/`.
 - [x] Commit rồi `git push`. Đã push 2 commit lên nhánh `sprint1/refactor-va-du-lieu-that` ngày 15/11.
-- [ ] Gộp nhánh đó vào `main` (tạo pull request trên GitHub rồi merge).
+- [x] Gộp nhánh đó vào `main`. Đã gộp và push ngày 15/11.
 
 **Xong khi:** `git status` sạch và push thành công.
 
@@ -259,5 +259,5 @@ Ngày 1 đã dùng cho việc ngoài kế hoạch, nên 16 điểm còn lại c�
 
 | Ngày | Đã xong | Làm tiếp | Vướng |
 | --- | --- | --- | --- |
-| 15/11 | Chốt Q1–Q4, Q6, Q7. Thu thập 1.202 đánh giá Google Maps, gán nhãn 164 câu. Đo lần đầu trên dữ liệu thật. Thêm chủ đề `location_infrastructure` | Task 1 (commit), Task 2 | Gói Gemini miễn phí giới hạn 15 lời gọi/phút |
+| 15/11 | Chốt Q1–Q4, Q6, Q7. Thu thập 1.202 đánh giá Google Maps, gán nhãn 164 câu. Đo lần đầu trên dữ liệu thật. Thêm chủ đề `location_infrastructure` | Task 2 | Gói Gemini miễn phí giới hạn 15 lời gọi/phút |
 | | | | |
